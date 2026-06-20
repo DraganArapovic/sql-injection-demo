@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Vulnerable Login</h1>
+
+<form action="/login-vulnerable" method="POST">
+
+    <input
+        type="text"
+        name="username"
+        placeholder="Username">
+
+    <input
+        type="text"
+        name="password"
+        placeholder="Password">
+
+    <button type="submit">
+        Login
+    </button>
+
+</form>
+
+<p>
+Primjer napada:
+<br>
+Username:
+<code>' OR 1=1 /*</code>
+</p>
+
+<a href="/">Back</a>
+
+</body>
+</html>
