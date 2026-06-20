@@ -17,6 +17,28 @@ The application contains:
 * SQLite3
 * HTML/CSS
 
+### Security Testing
+* SQLMap
+
+## Project Structure
+
+```bash
+sql-injection-demo/
+│
+├── server.js
+├── package.json
+├── db.sqlite
+│
+├── database/
+│   └── init.sql
+│
+└── public/
+    ├── index.html
+    ├── vulnerable.html
+    ├── secure.html
+    └── style.css
+```
+
 ## Installation
 
 Install dependencies:
