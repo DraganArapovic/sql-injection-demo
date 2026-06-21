@@ -90,7 +90,7 @@ app.post("/login-secure", (req, res) => {
 
                 res.send(`
                     <h1>LOGIN FAILED</h1>
-                    <p>SQL Injection nije uspio.</p>
+                    <p>SQL Injection hasn't worked.</p>
                     <a href="/">Back</a>
                 `);
 
